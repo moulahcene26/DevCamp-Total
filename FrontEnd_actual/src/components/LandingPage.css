@@ -1,0 +1,103 @@
+/* LandingPage.css */
+
+.landing-page {
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    background-color: #ffffff;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background: 00406A;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 5%, rgba(4, 141, 233, 1) 100%);    color: white;
+  }
+  
+  .search-container {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .search-input {
+    width: 100%;
+    max-width: 400px;
+    padding: 8px 15px;
+    border-radius: 20px;
+    border: none;
+    background-color: white;
+    font-size: 14px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%23888888' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='11' cy='11' r='8'%3E%3C/circle%3E%3Cline x1='21' y1='21' x2='16.65' y2='16.65'%3E%3C/line%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    padding-left: 35px;
+  }
+  
+  .user-profile {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .profile-image img {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+  }
+  
+  .admin-text {
+    font-size: 14px;
+    font-weight: 500;
+  }
+  
+  .main_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px;
+  }
+  
+  .forecast-container {
+    max-width: 900px;
+    text-align: center;
+    padding: 40px 20px;
+  }
+  
+  .heading {
+    color: #00517c;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .description {
+    color: #5b87a4;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 40px;
+  }
+  
+  .action-button-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+  }
+  
+  .predict-button {
+    background-color: white;
+    color: white;
+    background: linear-gradient(90deg, rgba(118, 118, 153, 1) 0%, rgba(0, 116, 194, 1) 100%);
+    border: 2px solid #00517c;
+    border-radius: 25px;
+    padding: 12px 35px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .predict-button:hover {
+    background-color: #edf5fa;
+  }
